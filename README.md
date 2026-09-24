@@ -18,8 +18,6 @@ Netflix Clone ini adalah website statis satu halaman (single-page) yang meniru t
 - CSS3: Styling, layout Flexbox, dan media queries untuk responsive
 - JavaScript: Manipulasi DOM menggunakan createElement dan addEventListener
 
-## Struktur Folder
-```text
 Slicing Website/
 ├── index.html
 ├── style.css
@@ -35,7 +33,6 @@ Slicing Website/
     ├── poster-1.jpg sampai poster-10.jpg
     ├── screenshot-desktop.png
     └── screenshot-mobile.png
-```text
 
 ## Screenshot
 ### Tampilan Desktop
