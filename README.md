@@ -35,7 +35,7 @@ Slicing Website/
     ├── poster-1.jpg sampai poster-10.jpg
     ├── screenshot-desktop.png
     └── screenshot-mobile.png
-    '''
+```
 
 ## Screenshot
 ### Tampilan Desktop
