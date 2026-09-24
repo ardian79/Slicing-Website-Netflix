@@ -19,28 +19,29 @@ Netflix Clone ini adalah website statis satu halaman (single-page) yang meniru t
 - JavaScript: Manipulasi DOM menggunakan createElement dan addEventListener
 
 ## Struktur Folder
+```text
 Slicing Website/
 ├── index.html
 ├── style.css
 ├── script.js
 └── assets/
     ├── netflix-logo.svg
-    ├── film-background.jpg
+    ├── hero-backdrop.jpg
     ├── icon-search.svg
     ├── icon-bell.svg
     ├── icon-play.svg
     ├── icon-info.svg
     ├── avatar.svg
-    ├── poster-1.jpg s/d poster-10.jpg
+    ├── poster-1.jpg sampai poster-10.jpg
     ├── screenshot-desktop.png
     └── screenshot-mobile.png
 
 ## Screenshot
 ### Tampilan Desktop
-![Tampilan Desktop](assets/screenshot-desktop.png)
+<img src="assets/screenshot-desktop.png" alt="Tampilan Desktop" width="800">
 
 ### Tampilan Mobile
-![Tampilan Mobile](assets/screenshot-mobile.png)
+<img src="assets/screenshot-mobile.png" alt="Tampilan Mobile" width="350">
 
 ## Penerapan JavaScript (DOM)
 Manipulasi DOM diterapkan pada bagian daftar poster film. Alih-alih menulis 10 poster secara manual di HTML, JavaScript mengambil data dari sebuah array bernama movies, lalu membuat elemen poster baru menggunakan document.createElement(), dan menyisipkannya ke dalam container menggunakan appendChild(). Hal ini membuat kode lebih ringkas dan mudah diubah. Cukup menambah atau mengubah data di array, maka poster akan otomatis diperbarui di halaman.
