@@ -26,7 +26,7 @@ Slicing Website/
 ├── script.js
 └── assets/
     ├── netflix-logo.svg
-    ├── hero-backdrop.jpg
+    ├── film-background.jpg
     ├── icon-search.svg
     ├── icon-bell.svg
     ├── icon-play.svg
