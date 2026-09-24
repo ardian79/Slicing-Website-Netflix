@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="assets/netflix-logo.svg" alt="Netflix" class="logo">
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#tv">Acara TV</a></li>
+                <li><a href="#movies">Film</a></li>
+                <li><a href="#new">Baru & Populer</a></li>
+                <li><a href="#list">Daftar Saya</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <img src="assets/icon-search.svg" alt="Cari" class="nav-icon">
+            <img src="assets/icon-bell.svg" alt="Notifikasi" class="nav-icon">
+            <img src="assets/avatar.svg" alt="Profil" class="nav-icon">
+        </div>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+    </nav>
+
+    <section class="hero" id="home">
+        <img src="assets/film-background.jpg" alt="Backdrop" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <img src="assets/netflix-logo.svg" alt="Netflix" class="hero-logo">
+            <h1 class="hero-title">Resident Evil</h1>
+            <div class="hero-meta">
+                <span class="match">95% Cocok</span>
+                <span class="year">2002</span>
+                <span class="rating">R</span>
+                <span class="seasons">6 Film</span>
+            </div>
+            <p class="hero-desc">
+                Sebuah virus mematikan bocor dari laboratorium rahasia Umbrella
+                Corporation dan mengubah para pegawainya menjadi zombie. Sekelompok
+                tentara elit dikirim untuk menghentikan wabah sebelum menyebar ke
+                seluruh dunia.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-play" id="btn-play">
+                    <img src="assets/icon-play.svg" alt="Putar">
+                    Putar
+                </button>
+                <button class="btn btn-info" id="btn-info">
+                    <img src="assets/icon-info.svg" alt="Info">
+                    Info Selengkapnya
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="row" id="tv">
+        <h2 class="row-title">Sedang Trending</h2>
+        <div class="row-posters" id="row-1"></div>
+    </section>
+
+    <section class="row" id="movies">
+        <h2 class="row-title">Populer di Netflix</h2>
+        <div class="row-posters" id="row-2"></div>
+    </section>
+
+    <section class="row" id="new">
+        <h2 class="row-title">Rilis Baru</h2>
+        <div class="row-posters" id="row-3"></div>
+    </section>
+
+    <section class="row" id="list">
+        <h2 class="row-title">Daftar Saya</h2>
+        <div class="row-posters" id="row-4"></div>
+    </section>
+
+    <footer class="footer">
+        <p>Rizal Lazuardi | 252410103045</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
