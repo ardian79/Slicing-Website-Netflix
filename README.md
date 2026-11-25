@@ -2,7 +2,7 @@
 Proyek slicing website Netflix yang dibuat untuk memenuhi tugas Praktikum mata kuliah Pemrograman Berbasis Website. Website ini merupakan replika halaman utama Netflix yang menampilkan banner film utama, daftar poster film populer, serta navigasi yang responsif di berbagai ukuran layar.
 
 ## Tentang Website
-Netflix Clone ini adalah website statis satu halaman (single-page) yang meniru tampilan halaman beranda Netflix. Website ini dibuat murni menggunakan HTML, CSS, dan JavaScript tanpa bantuan framework apapun. Halaman ini menampilkan film Resident Evil sebagai banner utama, dilengkapi dengan informasi seperti persentase kecocokan, tahun rilis, rating, jumlah film, serta sinopsis dalam Bahasa Indonesia. Di bawahnya terdapat empat baris daftar poster film yang bisa digeser secara horizontal, yaitu "Sedang Trending", "Populer di Netflix", "Rilis Baru", dan "Daftar Saya".
+Netflix Clone ini adalah website statis satu halaman (single-page) yang meniru tampilan halaman beranda Netflix. Website ini dibuat murni menggunakan HTML, CSS, dan JavaScript tanpa bantuan framework apapun. Halaman ini menampilkan film Resident Evil sebagai banner utama, dilengkapi dengan informasi seperti persentase kecocokan, tahun rilis, rating, jumlah film, serta sinopsis dalam Bahasa Indonesia. Di bawahnya terdapat empat baris daftar film yang bisa digeser secara horizontal, yaitu "Sedang Trending", "Populer di Netflix", "Rilis Baru", dan "Daftar Saya".
 
 ## Fitur
 - Responsive Design: Tampilan menyesuaikan otomatis di mobile, tablet, dan desktop
